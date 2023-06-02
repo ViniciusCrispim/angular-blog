@@ -18,6 +18,7 @@
 
 .imagem img {
   margin: 0 auto;
+  min-height: 205px;
   width: 355px;
   border-radius: 1rem 1rem 0 0;
 }
@@ -39,6 +40,7 @@
 }
 
 .botao button {
+  margin-right: 10px;
   height: 35px;
   width: 90px;
   color: aliceblue;

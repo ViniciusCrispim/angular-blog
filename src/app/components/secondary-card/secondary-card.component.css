@@ -16,6 +16,7 @@
 }
 
 .imagem img {
+  min-height: 195px;
   width: 298px;
   border-radius: 1rem 0 0 1rem;
 }
@@ -27,11 +28,15 @@
 
 .conteudo-noticia {
   margin: 10px;
+  overflow: hidden;
+  text-overflow: clip;
+  
+  width: 450px;
+  height: 100px;
 }
 .conteudo-noticia p {
   padding: 5px;
   color: rgb(85, 102, 102);
-  overflow: hidden;
 }
 
 .botao {
