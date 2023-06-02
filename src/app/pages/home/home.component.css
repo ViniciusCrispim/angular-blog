@@ -1,0 +1,16 @@
+.conteudo {
+    margin: 10px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo .side-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+   list-style: none; 
+}

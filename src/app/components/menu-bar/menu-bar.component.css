@@ -1,0 +1,72 @@
+.container {
+  background-color: aliceblue;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 10px;
+  padding: 5px;
+  align-items: center;
+}
+
+.logo {
+  justify-content: center;
+  margin-left: 12px;
+  padding: 5px;
+}
+
+.logo ul {
+  display: flex;
+  list-style: none;
+}
+
+.logo ul > li {
+  justify-content: space-between;
+}
+
+.logo ul > li > a {
+  text-decoration: none;
+}
+
+.pesquisa {
+    box-shadow: 6px 4px 5px -2px rgba(0,0,0,0.75)
+}
+.pesquisa .input {
+  border: none;
+  height: 40px;
+  width: 270px;
+  /* box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75); */
+}
+
+.pesquisa .buscar {
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 0 16 0 0;
+    /* box-shadow: 6px 4px 5px -2px rgba(0,0,0,0.75); */
+}
+
+.menu-lateral {
+    border: 1px solid red;
+}
+
+.button {
+    margin-left: 10px;
+    height: 40px;
+    width: 75px;
+    border-radius: .2rem;
+    border: none;
+    box-shadow: 6px 4px 5px -2px rgba(0,0,0,0.7);
+}
+
+.subscribe {
+    width: 80px;
+    background-color: rgb(29, 29, 126);
+    color: white;
+}
+.join {
+    width: 60px;
+    background-color: white;
+    color:  rgb(29, 29, 126);
+}
+
