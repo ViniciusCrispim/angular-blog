@@ -1,0 +1,70 @@
+.container {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: auto;
+    height: 87vh;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 14px 6px rgba(199, 225, 255, 1)
+}
+
+.content-foto {
+    margin-top: 15px;
+}
+
+.content-foto > img{
+    width: 700px;
+    border-radius: 1rem 0.2rem 1rem 0.2rem;
+    box-shadow: 0px 0px 14px 6px rgba(199, 225, 255, 1)
+}
+
+.content-title {
+    margin: 10px;
+}
+
+.content-title > h1{
+    letter-spacing: 4px;
+}
+
+.content-text {
+    margin: 10px 20px;
+    padding: 5px;
+    width: 800px;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 14px 6px rgba(199, 225, 255, 1)
+}
+
+.content-text > p {
+    color: rgb(85, 102, 102);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.voltar-btn{
+    position: absolute;
+    left: 30px;
+    bottom: 38px;
+    width: 95px;
+}
+
+.voltar-btn > a > button {
+    text-decoration: none;
+    width: 94px;
+    height: 30px;
+    color: aliceblue;
+    font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  background: rgb(32, 50, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 50, 88, 1) 0%,
+    rgba(71, 128, 147, 1) 72%
+  );
+
+
+}

@@ -10,7 +10,9 @@
             <p>{{ textContent }}</p>
         </div>
         <div class="botao">
-            <button>Read more</button>
+            <a [routerLink]="['content', id]">
+                <button>Read more</button>
+            </a>
         </div>
     </div>
 </div>

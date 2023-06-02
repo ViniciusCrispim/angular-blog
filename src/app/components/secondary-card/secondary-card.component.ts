@@ -16,6 +16,8 @@ export class SecondaryCardComponent implements OnInit {
   @Input()
   textContent:string = ''
 
+  @Input()
+  id:string = '0'
   constructor() { }
 
   ngOnInit(): void {
