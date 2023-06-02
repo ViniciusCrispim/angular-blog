@@ -1,32 +1,33 @@
 .container {
-    background-color: aliceblue;
-    border: 1px solid red;
-    padding: 10px;
-    height: 590px;
-    width: 750px;
-    border: 3px solid rgb(194, 223, 249);
-    border-radius: 1rem;
+  margin-top: 2px;
+  padding: 0 2px;
+  height: 615px;
+  width: 360px;
+  border: 3px solid rgb(194, 223, 249);
+  border-radius: 1rem;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 14px 6px rgba(199, 225, 255, 1);
 }
 
 .imagem {
-    border: 1px solid red;
+  margin-top: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imagem img {
   margin: 0 auto;
-  height: 200px;
-  width: 300px;
+  width: 355px;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .titulo {
-  border: 1px solid red;
+  padding: 5px;
   margin: 10px 0;
 }
 
 .conteudo {
-  border: 1px solid red;
   padding: 5px;
   color: rgb(85, 102, 102);
 }
@@ -34,15 +35,19 @@
 .botao {
   display: flex;
   margin-top: 10px;
-  border: 1px solid red;
   justify-content: end;
 }
 
 .botao button {
   height: 35px;
   width: 90px;
-  background-color: rgb(102, 125, 255);
   color: aliceblue;
   border: none;
   border-radius: 1rem;
+  background: rgb(32, 50, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 50, 88, 1) 0%,
+    rgba(71, 128, 147, 1) 72%
+  );
 }

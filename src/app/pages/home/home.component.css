@@ -1,14 +1,18 @@
 .conteudo {
     margin: 10px;
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
 }
 
+.main-content {
+    display: flex;
+    gap: 1rem;
+}
 .conteudo .side-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: .2rem;
+    /* justify-content: space-between; */
 }
 
 li {

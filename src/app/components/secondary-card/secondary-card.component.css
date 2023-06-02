@@ -1,35 +1,43 @@
 .container {
-  border: 1px solid red;
+  margin-top: 5px;
   display: flex;
-  height: 290px;
-  width: 750px;
+  height: 198px;
+  width: 770px;
   justify-content: center;
   align-items: center;
   background-color: aliceblue;
   border-radius: 1rem;
+  box-shadow: 0px 0px 14px 6px rgba(199, 225, 255, 1);
+}
+
+.imagem {
+  display: flex;
+  align-items: center;
 }
 
 .imagem img {
-  padding: 10px;
-  width: 380px;
-  border-radius: 1.2rem 0 0 1.2rem;
+  width: 298px;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.conteudo .titulo {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .conteudo-noticia {
-    border: 1px solid red;
-    margin: 10px;
+  margin: 10px;
 }
 .conteudo-noticia p {
-    padding: 5px;
+  padding: 5px;
   color: rgb(85, 102, 102);
   overflow: hidden;
 }
 
 .botao {
-    border: 1px solid red;
-    display: flex;
-    justify-content: end;
-    margin-right: 10px;
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
 }
 
 .botao button {
@@ -38,9 +46,11 @@
   width: 90px;
   border: none;
   border-radius: 1rem;
-  background: #1d1d7e;
 
-  background: linear-gradient(90deg, #1d1d7e 0%, #667dff 80%);
-  background: -webkit-linear-gradient(90deg, #1d1d7e 0%, #667dff 80%);
-  background: -moz-linear-gradient(90deg, #1d1d7e 0%, #667dff 80%);
+  background: rgb(32, 50, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 50, 88, 1) 0%,
+    rgba(71, 128, 147, 1) 72%
+  );
 }

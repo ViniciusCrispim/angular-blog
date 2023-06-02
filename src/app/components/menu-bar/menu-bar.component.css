@@ -1,72 +1,106 @@
 .container {
   background-color: aliceblue;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 5px 10px;
+  margin: 8px 10px;
   padding: 5px;
   align-items: center;
+  height: 65px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 14px 6px rgba(199, 225, 255, 1);
 }
 
 .logo {
+  display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: 12px;
-  padding: 5px;
+  width: 135px;
+  height: 40px;
+  border-radius: 1rem;
+  background: rgb(32, 50, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 50, 88, 1) 0%,
+    rgba(71, 128, 147, 1) 72%
+  );
 }
 
-.logo ul {
+.logo > ul {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
-.logo ul > li {
-  justify-content: space-between;
+.logo > ul > li {
+  margin-top: 6px;
+  align-items: center;
+  margin-left: 15px;
 }
 
-.logo ul > li > a {
-  text-decoration: none;
+.logo .icone {
+  width: 30px;
+  filter: invert(1);
+  transition: 0.4s ease-in-out;
+}
+
+.logo .icone:hover {
+  transform: scale(1.1);
 }
 
 .pesquisa {
-    box-shadow: 6px 4px 5px -2px rgba(0,0,0,0.75)
+  box-shadow: 3px 6px 13px -4px rgba(0, 0, 0, 1);
+  border-radius: 0 1rem 1rem 0;
 }
 .pesquisa .input {
+  padding-left: 10px;
+  letter-spacing: 2px;
   border: none;
   height: 40px;
   width: 270px;
-  /* box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75); */
 }
 
 .pesquisa .buscar {
-    height: 40px;
-    width: 60px;
-    border: none;
-    border-radius: 0 16 0 0;
-    /* box-shadow: 6px 4px 5px -2px rgba(0,0,0,0.75); */
+  letter-spacing: 0.9px;
+  font-weight: 550;
+  height: 40px;
+  width: 60px;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
 }
 
 .menu-lateral {
-    border: 1px solid red;
+  justify-content: space-between;
 }
 
 .button {
-    margin-left: 10px;
-    height: 40px;
-    width: 75px;
-    border-radius: .2rem;
-    border: none;
-    box-shadow: 6px 4px 5px -2px rgba(0,0,0,0.7);
+  color: aliceblue;
+  font-weight: bold;
+  margin-left: 10px;
+  height: 40px;
+  width: 75px;
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 6px 4px 5px -2px rgba(0, 0, 0, 0.7);
+  background: rgb(32, 50, 88);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 50, 88, 1) 0%,
+    rgba(71, 128, 147, 1) 72%
+  );
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover{
+  transform: scale(1.1);
 }
 
 .subscribe {
-    width: 80px;
-    background-color: rgb(29, 29, 126);
-    color: white;
-}
-.join {
-    width: 60px;
-    background-color: white;
-    color:  rgb(29, 29, 126);
+  width: 80px;
 }
 
+.join {
+  margin-right: 10px;
+  width: 60px;
+}
